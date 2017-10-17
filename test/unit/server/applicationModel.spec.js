@@ -28,7 +28,7 @@ describe('Application Model', function() {
   before(function() {
     // mock DB results using rewire
     applicationModel.__set__('APPS', [{
-      id: 8888,
+      id: 8889,
       name: 'Cool Beans',
       lastUpdated: '2015-10-09T04:04:00',
       status: 'online'
